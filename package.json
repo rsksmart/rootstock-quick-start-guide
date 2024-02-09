@@ -1,0 +1,23 @@
+{
+  "name": "rootstock-quick-start-guide",
+  "version": "1.0.0",
+  "description": "This repository contains a project for developing, testing, and deploying a smart contract using the Hardhat framework, tailored for the Rootstock network. The project follows a step-by-step approach, each represented by a specific commit in the repository.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "chai": "^4.2.0",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.19.4",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1",
+    "dotenv": "^16.4.1"
+  }
+}
