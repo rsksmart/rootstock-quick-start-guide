@@ -1,12 +1,17 @@
 # MyToken Smart Contract Project
 
-This repository contains a project for developing, testing, and deploying a smart contract using the Hardhat framework, tailored for the Rootstock network. The project follows a step-by-step approach, each represented by a specific commit in the repository.
+This repository contains a project for developing, testing, and deploying a smart contract using the Hardhat framework, tailored for the Rootstock network. 
 
-For detailed steps, see the [getting started guide](https://dev.rootstock.io/guides/quickstart/hardhat/)
+## Repository Branching Strategy
+
+- The [master branch](https://github.com/jesus-iov/rootstock-quick-start-guide/tree/master) contains an initial state of the project for you to work with alongside the [getting started guide](https://dev.rootstock.io/guides/quickstart/hardhat/).
+- The [feat/complete branch](https://github.com/jesus-iov/rootstock-quick-start-guide/tree/feat/complete) contains the final state of the project for reference.
+
+For detailed steps, see the [getting started guide](https://dev.rootstock.io/guides/quickstart/hardhat/).
 
 ## What You Will Learn
 
-By following the guide, you will learn:
+By following cloning this repository and following the quickstart guide, you will learn:
 
 - How to set up a Hardhat project and configure it for the Rootstock network
 - How to create, compile, test, and deploy a simple ERC20 token contract using Hardhat and OpenZeppelin
@@ -24,53 +29,43 @@ Before you start, you should have the following [prerequisite](https://dev.roots
 ### Clone the Repository
 
 Start by cloning this repository to your local machine.
-
-### Install project dependencies
-
-After cloning this repository, navigate to the root directory and run:
-
 ```bash
-npm install
+git clone https://github.com/jesus-iov/rootstock-quick-start-guide.git
 ```
 
-> From the root directory, navigate to the frontend directory to install the frontend dependencies:
+### Getting Started Guide
 
-```bash
-cd frontend
-npm install
-```
+After cloning this repository, follow the [getting started guide](https://dev.rootstock.io/guides/quickstart/hardhat/) to setup your project.
 
-> Please be aware that required steps like creating, deploying, and testing a smart contract must be completed prior to frontend integration. These steps are included in this repository. For a comprehensive guide covering all steps, refer to the [getting started guide](https://dev.rootstock.io/guides/quickstart/hardhat/) to run and test the application at each development phase.
+### Explore the Final State of the Project
 
-### Explore Commits
-
-Each commit represents a significant step in the project development.
+The [feat/complete branch](https://github.com/jesus-iov/rootstock-quick-start-guide/tree/feat/complete) contains the final state of the project after completing all the development steps in the getting started guide. You can reference this branch at any stage of development to verify your work.
 
 #### Project Development Steps
 
-* Step 1: Creating a Hardhat Project
+* Step 1: Create Hardhat Project
 
-    For more detailed steps, see [Set up Environment](https://dev.rootstock.io/guides/quickstart/hardhat/create-hardhat-project/).
+    For more detailed steps, see [Create Hardhat Project](https://dev.rootstock.io/guides/quickstart/hardhat/create-hardhat-project/).
 
-* Step 2: Configuring Hardhat for Rootstock Mainnet and Testnet
+* Step 2: Configure Hardhat for Rootstock
 
     See [configure Hardhat for Rootstock Mainnet and Testnet](https://dev.rootstock.io/guides/quickstart/hardhat/configure-hardhat/) for detailed steps.
 
-* Step 3: Creating a Smart Contract
+* Step 3: Write a Smart Contract
 
-    See [Building the Project](https://dev.rootstock.io/guides/quickstart/hardhat/write-smart-contract/) for detailed steps.
+    See [Write a Smart Contract](https://dev.rootstock.io/guides/quickstart/hardhat/write-smart-contract/) for detailed steps.
 
-* Step 4: Deploying the Contract 
+* Step 4: Test Smart Contracts
 
-    See [Deploying the Contract](https://dev.rootstock.io/guides/quickstart/hardhat/deploy-smart-contract/) for detailed steps.
+    See [Test Smart Contracts](https://dev.rootstock.io/guides/quickstart/hardhat/test-smart-contract/) for detailed steps.
 
-* Step 5: Testing the Contract
+* Step 5: Deploy Smart Contract 
 
-    See [Testing and Deployment on Rootstock Network](https://dev.rootstock.io/guides/quickstart/hardhat/test-smart-contract/) for detailed steps.
+    See [Deploy Smart Contract](https://dev.rootstock.io/guides/quickstart/hardhat/deploy-smart-contract/) for detailed steps.
 
-* Step 6: Integrating with Front-end Applications 
+* Step 6: Integrate with Front-end Applications 
 
-    See [Integrating with Front-end Applications](https://dev.rootstock.io/guides/quickstart/hardhat/integrate-frontend/) for detailed steps.
+    See [Integrate with Front-end Applications](https://dev.rootstock.io/guides/quickstart/hardhat/integrate-frontend/) for detailed steps.
 
 ### Learn and Experiment
 
