@@ -11,7 +11,7 @@ For detailed steps, see the [getting started guide](https://dev.rootstock.io/gui
 
 ## What You Will Learn
 
-By following cloning this repository and following the quickstart guide, you will learn:
+By cloning this repository and following the quickstart guide, you will learn:
 
 - How to set up a Hardhat project and configure it for the Rootstock network
 - How to create, compile, test, and deploy a simple ERC20 token contract using Hardhat and OpenZeppelin
