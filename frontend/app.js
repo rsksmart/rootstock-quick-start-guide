@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
   let provider, account, myTokenContract;
   let contractABI = [];
   let networks = {};
-  const contractAddress = `Replace with your contract's address`;
+  const contractAddress = `Replace with your contract's address`; // E.g. 0xa6fb392538BaC56e03a900BFDE22e76C05fb5122
 
   /**
  * Load data from external JSON files
