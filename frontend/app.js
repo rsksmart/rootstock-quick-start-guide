@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
   let provider, account, myTokenContract;
   let contractABI = [];
   let networks = {};
-  const contractAddress = `Replace with your contract's address`; // E.g. 0xa6fb392538BaC56e03a900BFDE22e76C05fb5122
+  const contractAddress = 'Replace with your contract\'s address'; // E.g. 0xa6fb392538BaC56e03a900BFDE22e76C05fb5122
 
   /**
  * Load data from external JSON files
@@ -71,8 +71,6 @@ document.addEventListener('DOMContentLoaded', function () {
           provider = new ethers.providers.Web3Provider(window.ethereum);
           // Get the signer for network interaction
           signer = provider.getSigner();
-          // Instantiate the contract
-          myTokenContract = new ethers.Contract(contractAddress, contractABI, signer);
           // Activates the getBalanceButton
           connectButton.disabled = true;
           getBalanceButton.disabled = false;
@@ -87,6 +85,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Get balance button event
     getBalanceButton.addEventListener('click', async function () {
+      // Verify contractAddress is a valid address
+      if (!ethers.utils.isAddress(contractAddress)){
+        alert('Please verify that contractAddress is set');
+        return;
+      }
+      // Instantiate the contract
+      myTokenContract = new ethers.Contract(contractAddress, contractABI, signer);
       // Check if the contract is instatiated properly
       if (myTokenContract) {
         // Obtains the user balance
