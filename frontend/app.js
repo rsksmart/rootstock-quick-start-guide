@@ -74,6 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
           // Instantiate the contract
           myTokenContract = new ethers.Contract(contractAddress, contractABI, signer);
           // Activates the getBalanceButton
+          connectButton.disabled = true;
           getBalanceButton.disabled = false;
         } catch (error) {
           console.error("Error connecting to MetaMask", error);
