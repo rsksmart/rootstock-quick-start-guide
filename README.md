@@ -31,7 +31,7 @@ Before you start, you should have the following [prerequisite](https://dev.roots
 
 Start by cloning this repository to your local machine.
 ```bash
-git clone https://github.com/jesus-iov/rootstock-quick-start-guide.git
+git clone https://github.com/rsksmart/rootstock-quick-start-guide.git
 ```
 
 ### Getting Started Guide
