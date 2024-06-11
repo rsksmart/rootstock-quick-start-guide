@@ -4,8 +4,8 @@ This repository contains a project for developing, testing, and deploying a smar
 
 ## Repository Branching Strategy
 
-- The [master branch](https://github.com/jesus-iov/rootstock-quick-start-guide/tree/master) contains an initial state of the project for you to work with alongside the [getting started guide](https://dev.rootstock.io/guides/quickstart/hardhat/).
-- The [feat/complete branch](https://github.com/jesus-iov/rootstock-quick-start-guide/tree/feat/complete) contains the final state of the project for reference.
+- The [master branch](https://github.com/rsksmart/rootstock-quick-start-guide/tree/master) contains an initial state of the project for you to work with alongside the [getting started guide](https://dev.rootstock.io/guides/quickstart/hardhat/).
+- The [feat/complete branch](https://github.com/rsksmart/rootstock-quick-start-guide/tree/feat/complete) contains the final state of the project for reference.
 
 For detailed steps, see the [getting started guide](https://dev.rootstock.io/guides/quickstart/hardhat/).
 
@@ -40,7 +40,7 @@ After cloning this repository, follow the [getting started guide](https://dev.ro
 
 ### Explore the Final State of the Project
 
-The [feat/complete branch](https://github.com/jesus-iov/rootstock-quick-start-guide/tree/feat/complete) contains the final state of the project after completing all the development steps in the getting started guide. You can reference this branch at any stage of development to verify your work.
+The [feat/complete branch](https://github.com/rsksmart/rootstock-quick-start-guide/tree/feat/complete) contains the final state of the project after completing all the development steps in the getting started guide. You can reference this branch at any stage of development to verify your work.
 
 #### Project Development Steps
 
